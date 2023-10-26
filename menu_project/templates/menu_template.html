@@ -1,0 +1,13 @@
+{% load menu_tags %}
+{% draw_menu 'main_menu' %}
+<ul>
+        {% include "menu_item.html" %}
+</ul>
+
+
+
+<style>
+.active {
+    font-weight: bold;
+}
+</style>
